@@ -1,0 +1,47 @@
+
+body {
+    background-image: url("linedpaper.png");
+}
+/*
+body{
+	background: aliceblue;
+}*/
+
+span.badge.new {
+	float: left;
+	margin-left: 0;
+	font-weight: 500;
+}
+
+body > div.container > div > div > div > div.card-content.white-text.blue-grey.darken-1 > span{
+	font-weight: 400;
+}
+
+.finished{
+	text-decoration: line-through;
+    color: #a3a3a3;
+}
+
+.finished-label{
+	text-decoration: line-through;
+}
+
+.cursor-pointer{
+	cursor: pointer;
+}
+
+.msg-required{
+	color: #f44336;
+	font-weight: 500;
+	margin-top: -15px;
+	margin-bottom: 20px;
+	font-size: 12px;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.word-wrap{
+	word-wrap: break-word;
+}

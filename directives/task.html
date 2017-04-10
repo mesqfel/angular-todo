@@ -1,0 +1,18 @@
+<div class="row cursor-pointer" ng-click="doAndUndoTask({atask: taskObject})">
+	<div class="col s2">
+		<form action="#">
+			<input type="checkbox" class="filled-in" ng-model="taskObject.finished" ng-change="updateBtnRemoveTask()" />
+			<label></label>
+		</form>
+	</div>
+
+	<div class="col s5 word-wrap" ng-class="{'finished' : taskObject.finished}">
+		{{taskObject.description}}
+	</div>
+
+	<div class="col s5">
+		<span class="new badge" data-badge-caption="" ng-class="{'finished-label' : taskObject.finished, 'green accent-4' : (taskObject.day == 'Saturday' || taskObject.day == 'Sunday')}">
+			{{taskObject.day}}
+		</span>
+	</div>
+</div>

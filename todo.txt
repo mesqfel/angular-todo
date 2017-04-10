@@ -1,0 +1,8 @@
+
+
+PROBLEMA COM CROSS SITE ORIGIN 
+https://github.com/neomerx/cors-illuminate
+
+> tentar fazer o delete usando o verbo DELETE
+	> tem q atualizar tanto o client quanto a api
+	REFERENCIA para o lado client: https://docs.angularjs.org/api/ng/service/$http
