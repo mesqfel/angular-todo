@@ -1,6 +1,6 @@
 # angular-todo
-A simple to-do list made with AngularJs
-You can check it live here: http://www.mesquitafelipe.com/to-do-list/
+A simple to-do list made with AngularJs<br>
+You can check it live here: http://www.mesquitafelipe.com/to-do-list/<br>
 Disclaimer: this is just the Client side. To run this app locally you will also need to clone the Server side here: https://github.com/mesqfel/laravel-todo-api
 
 ### Getting Started
